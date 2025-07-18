@@ -2,46 +2,45 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>ร้านสตรอเบอร์รี่นมสด CMU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CM Candle Studio</title>
     <style>
         body {
-            font-family: 'Sarabun', sans-serif;
+            font-family: 'Prompt', sans-serif;
             margin: 0;
-            background-color: #fff0f5;
+            padding: 0;
+            background-color: #fefaf6;
             color: #333;
         }
         header {
+            background-color: #fff;
+            padding: 30px 20px;
             text-align: center;
-            padding: 30px 0;
-            background-color: #ffe4ec;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         header img {
-            height: 100px;
+            height: 80px;
         }
-        .hero {
-            text-align: center;
-            padding: 40px 20px;
-            background: linear-gradient(to right, #ffe4ec, #f0f8ff);
+        h1 {
+            font-size: 2.2em;
+            margin: 10px 0;
+            color: #a67c52;
         }
-        .hero h1 {
-            font-size: 2.5em;
-            color: #d6336c;
-        }
-        .hero p {
+        .tagline {
             font-size: 1.2em;
-            color: #555;
+            color: #7a5c4f;
+            margin-top: 5px;
         }
         .products {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
+            flex-wrap: wrap;
             padding: 40px 20px;
             gap: 30px;
         }
         .product {
             background-color: #fff;
-            border-radius: 10px;
+            border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             width: 300px;
             text-align: center;
@@ -56,59 +55,61 @@
             border-radius: 10px;
         }
         .product h2 {
-            font-size: 1.3em;
+            color: #a67c52;
             margin: 15px 0 5px;
-            color: #d6336c;
         }
         .product p {
-            font-size: 1.1em;
-            color: #444;
+            font-size: 1em;
+            color: #555;
+        }
+        .price {
+            font-size: 1.2em;
+            color: #d17c5c;
+            font-weight: bold;
+            margin-top: 10px;
         }
         footer {
+            background-color: #fff;
             text-align: center;
             padding: 20px;
-            background-color: #f3f3f3;
             font-size: 0.9em;
-            color: #777;
-        }
-        @media (max-width: 768px) {
-            .products {
-                flex-direction: column;
-                align-items: center;
-            }
+            color: #999;
+            border-top: 1px solid #eee;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <img src="https://via.placeholder.com/200x100?text=der>
+    <header>
+        <img src="logo-candle.png" alt="โลโก้เทียนหอม">
+        <h1>CM Candle Studio</h1>
+        <div class="tagline">“เทียนหอมดีไซน์เก๋ หอมละมุน เติมเต็มทุกช่วงเวลาแห่งการเรียนรู้”</div>
+    </header>
 
-<section class="hero">
-    <h1>สตรอเบอร์รี่นมสด CMU</h1>
-    <p>หวาน สดชื่น อร่อยทุกคำ! เติมความสุขให้วันของคุณด้วยสตรอเบอร์รี่นมสดสูตรพิเศษสำหรับนักศึกษามหาวิทยาลัยเชียงใหม่</p>
-</section>
+    <section class="products">
+        <div class="product">
+            <img src="candle1.jpg" alt="เทียนหอมกลิ่นลาเวนเดอร์">
+            <h2>ลาเวนเดอร์คลาสสิค</h2>
+            <p>กลิ่นหอมผ่อนคลาย เหมาะสำหรับการอ่านหนังสือหรือพักผ่อน</p>
+            <div class="price">฿199</div>
+        </div>
+        <div class="product">
+            <img src="candle2.jpg" alt="เทียนหอมกลิ่นวานิลลา">
+            <h2>วานิลลาชาเล่ต์</h2>
+            <p>กลิ่นหวานละมุน สร้างบรรยากาศอบอุ่นในห้องนอน</p>
+            <div class="price">฿249</div>
+        </div>
+        <div class="product">
+            <img src="candle3.jpg" alt="เทียนหอมกลิ่นยูคาลิปตัส">
+            <h2>ยูคาลิปตัสเฟรช</h2>
+            <p>กลิ่นสดชื่น ช่วยให้รู้สึกปลอดโปร่งและมีสมาธิ</p>
+            <div class="price">฿229</div>
+        </div>
+    </section>
 
-<section class="products">
-    <div class="product">
-        <img srcvia.placeholder.com/300x200?text=Strawberry+Milk+1
-        <h2>สตรอเบอร์รี่นมสดคลาสสิค</h2>
-        <p>ราคา 59 บาท</p>
-    </div>
-    <div class="product">
-        <img src="https://via.placeholder.com/300x200?text=Strawberry+Milk+2" alt="เบอร์รี่นมสดไข่มุก</h2>
-        <p>ราคา 69 บาท</p>
-    </div>
-    <div class="product">
-        https://via.placeholder.com/300x200?text=Strawberry+Milk+3
-        <h2>สตรอเบอร์รี่นมสดโยเกิร์ต</h2>
-        <p>ราคา 75 บาท</p>
-    </div>
-</section>
-
-<footer>
-    © 2025 Strawberry Milk CMU | Designed for Chiang Mai University Students
-</footer>
+    <footer>
+        © 2025 CM Candle Studio | ติดต่อเรา: cmcandles@email.com
+    </footer>
 
 </body>
 </html>
